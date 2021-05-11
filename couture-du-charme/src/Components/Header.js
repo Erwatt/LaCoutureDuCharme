@@ -12,7 +12,7 @@ function Header(){
                             <a href="https://www.facebook.com/coutureducharme"><img src={logo_fb} className="logo_fb" alt="logo facebook"/></a>
                         </div>
                         <div className="element_up">
-                            <img src={logo} className="logo" alt="logo"/>
+                            <img src={logo} className="Logo" alt="logo"/>
                         </div>
                         <div className="element_up contact">
                             <p>E-mail : coutureducharme@gmail.com</p>
