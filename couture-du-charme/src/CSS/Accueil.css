@@ -21,8 +21,20 @@
     flex-direction:row;
     justify-content: space-evenly;
 }
+
+
 .container{
     background-color: rgb(243, 197, 47);
     margin:2.5%;
     padding: 5%;
 }
+
+@media screen and (max-width: 710px) {
+    .cardAccueilContainer{
+        display: flex;
+        flex-direction:column;
+        
+
+    }
+    
+  }
