@@ -1,13 +1,14 @@
 .accueil_container{
     display: flex;
     flex-direction:column;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(11, 11, 56);
    
 
 }
 
 .titleText{
     font-size: 250%;
+    
 }
 
 
@@ -23,7 +24,7 @@
 }
 
 
-.container{
+.container-homePage{
     background-color: rgb(243, 197, 47);
     margin:2.5%;
     padding: 5%;

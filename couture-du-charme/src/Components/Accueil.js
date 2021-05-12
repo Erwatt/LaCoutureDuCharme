@@ -6,7 +6,7 @@ import imgTest from "../Image/testimg.jpg"
 export default function Accueil(){
     return(
         <div class="accueil_container">
-            <div class="container">
+            <div class="container-homePage">
             <div class="titleText">
                 <h2>Ceci est un titre</h2>
             </div>

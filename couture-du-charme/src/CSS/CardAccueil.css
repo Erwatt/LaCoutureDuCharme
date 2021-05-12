@@ -42,7 +42,7 @@
 
 .buttonCard{
     
-    background-color: rgb(7, 7, 136);
+    background-color: rgb(11, 11, 56);
     
     padding: 2%;
     color: white;
@@ -67,7 +67,6 @@
 
     .accueilcardBg{
         margin:2%;
-        
         justify-content: space-evenly;
 
     }
