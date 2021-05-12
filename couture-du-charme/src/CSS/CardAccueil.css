@@ -1,14 +1,36 @@
+.accueilcardBg{
+    background-color: cornsilk;
+    flex-basis: 32%;
+    border-radius: 10px;
+    border :solid black 3px;
+    height: 400px;
+    color:white;
+    background-color:white;
+    background-image:url(C:\wamp64\www\LaCoutureDuCharme\couture-du-charme\src\Image\testimg.jpg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .accueilcard{
     background-color: cornsilk;
     flex-basis: 32%;
     border-radius: 10px;
     border :solid black 3px;
+    height: 400px;
+    color:black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .titleAccueilCard{
     padding:5px;
-    font-size: 35px;
+    font-size: 250%;
     font-weight:400;
+    height:15%
 }
 .descriptionAccueilCard{
     padding:5px;
@@ -19,7 +41,21 @@
     height:100px;
 }
 
-.insidecard{
-    display: flex;
-    flex-direction: column;
+
+
+
+
+.buttonCard{
+    
+    background-color: rgb(7, 7, 136);
+    
+    padding: 2%;
+    color: white;
+    margin:1.5%;
+    border-radius: 5%;
+    height: 15%;
+
+   
+    
+
 }
