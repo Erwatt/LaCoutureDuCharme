@@ -12,7 +12,7 @@
     width: 100%;    
 }
 
-p{
+.text_contact{
     color:rgb(207,155,63);
     font-family: garamond;
     font-size: 80%;
@@ -28,11 +28,12 @@ p{
     display: flex;
     flex-direction: row;
     max-height: 100px;
+    width: 100%;
     background-color: rgb(207,155,63);
     justify-content: space-around;
 }
 
-h1{
+.Onglet{
     color: rgb(33, 32, 37);
     font-size: 150%;
     font-weight:lighter;

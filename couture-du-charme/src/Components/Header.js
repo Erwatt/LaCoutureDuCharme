@@ -15,22 +15,22 @@ function Header(){
                             <img src={logo} className="Logo" alt="logo"/>
                         </div>
                         <div className="element_up contact">
-                            <p>E-mail : coutureducharme@gmail.com</p>
-                            <p>Tél : 06 31 84 42 39</p>
+                            <p className="text_contact">E-mail : coutureducharme@gmail.com</p>
+                            <p className="text_contact">Tél : 06 31 84 42 39</p>
                         </div>
                     </div>
                     <div className="down">
                         <div className="element_down hvr-radial-out">
-                            <h1>Chambres</h1>
+                            <h1 className="Onglet">Chambres</h1>
                         </div>
                         <div className="element_down hvr-radial-out">
-                            <h1>Tarifs et réservation</h1>
+                            <h1 className="Onglet">Tarifs et réservation</h1>
                         </div>
                         <div className="element_down hvr-radial-out">
-                            <h1>Centre de détente</h1>
+                            <h1 className="Onglet">Centre de détente</h1>
                         </div>
                         <div className="element_down hvr-radial-out">
-                            <h1>Contact</h1>
+                            <h1 className="Onglet">Contact</h1>
                         </div>
                     </div>
                 </div>
