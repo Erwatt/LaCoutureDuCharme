@@ -25,8 +25,8 @@ export default function Footer(){
                 <div className="flex-items">
                     <h3>Réseaux sociaux</h3>
                     <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgFacebook} alt="Facebook"></img><div>Facebook</div></a></div>
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgInstagram} alt="Twitter"></img><div>Twitter</div></a></div>     
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgTwitter} alt="Instagram"></img><div>Instagram</div></a></div>                 
+                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgTwitter} alt="Twitter"></img><div>Twitter</div></a></div>     
+                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgInstagram} alt="Instagram"></img><div>Instagram</div></a></div>                 
                 </div>
                 <div className="flex-items">
                     <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/">Recrutement</a></div>
