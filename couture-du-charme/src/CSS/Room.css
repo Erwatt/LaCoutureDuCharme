@@ -78,8 +78,10 @@ color: rgb(35, 31, 32);
 .Room_title{
     font-family: garamond;
     font-weight:lighter;
+    color: rgb(35, 31, 32);
 }
 
 .Room_text{
     font-family: garamond;
+    color: rgb(35, 31, 32);
 }
