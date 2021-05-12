@@ -1,0 +1,25 @@
+.accueilcard{
+    background-color: cornsilk;
+    flex-basis: 32%;
+    border-radius: 10px;
+    border :solid black 3px;
+}
+
+.titleAccueilCard{
+    padding:5px;
+    font-size: 35px;
+    font-weight:400;
+}
+.descriptionAccueilCard{
+    padding:5px;
+}
+
+.imgCard{
+    width: 100px;
+    height:100px;
+}
+
+.insidecard{
+    display: flex;
+    flex-direction: column;
+}
