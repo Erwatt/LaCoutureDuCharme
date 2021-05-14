@@ -1,6 +1,6 @@
 
 .bookPage{
-    background-color: rgb(71, 143, 98);
+    background-color: rgb(11, 11, 56);
     padding:10%;
 }
 
@@ -8,12 +8,54 @@
 .blank{
     border:solid black 0.2em;
     background-color: white;
-    
     padding:2%;
     border-style: double;
 }
+
 .container_bookPage{
     border :solid black 0.2em;
-    padding:15%;
+    padding:10%;
+    padding-top: 5%;
     border-style: double;
+}
+
+.title_bookPage{
+    text-align: center;
+    font-size: 200%;
+}
+
+.sum_up_book{
+    border: black;
+    border-style: double;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 1100px) {
+    .sum_up_book{
+        
+        
+        flex-direction: column;
+       
+    }
+}
+
+.roomImg{
+   width: 50%;
+   height: 55%;
+   margin:3%;
+}
+
+.button_next{
+    margin-left: 90%;
+    background-color: rgb(51, 51, 160);
+    color: white;
+    font-size: 1em;
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius:10px;
 }
