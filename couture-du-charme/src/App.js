@@ -18,7 +18,6 @@ function App() {
               <Route path='/Book' component={Book}/>
               <Route path='/Nothing' component={Nothing}/>
           </Switch>
-      
       <Footer/>
     </div>
   );
