@@ -25,9 +25,11 @@
 
 
 .container-homePage{
-    background-color: rgb(207,155,63);;
+    background-color:white;
     margin:2.5%;
     padding: 5%;
+    border: black;
+    border-style: double;
 }
 
 @media screen and (max-width: 710px) {

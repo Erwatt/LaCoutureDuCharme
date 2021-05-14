@@ -11,8 +11,14 @@ function Header(){
 
     const history = useHistory();
 
-    const handleHistory=()=>{
+    const handleBook=()=>{
         history.push("/Book");
+    }
+    const handleNothing=()=>{
+        history.push("/Nothing");
+    }
+    const handleHome=()=>{
+        history.push("/");
     }
    
     return (
@@ -24,23 +30,23 @@ function Header(){
                             <a href="https://www.facebook.com/coutureducharme"><img src={logo_fb} className="logo_fb" alt="logo facebook"/></a>
                         </div>
                         <div className="element_up">
-                            <img src={logo} className="MainLogo" alt="logo"/>
+                            <img src={logo} className="MainLogo" alt="logo" onClick={handleHome}/>
                         </div>
                         <div className="element_up contact">
-                        <button className="button_book" onClick={handleHistory}>Réservation</button>
+                        <button className="button_book_header" onClick={handleBook}>Réservation</button>
                         </div>
                     </div>
                     <div className="down">
-                        <div className="element_down hvr-radial-outa">
+                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
                             <h1>CHAMBRES D'HOTES</h1>
                         </div>
-                        <div className="element_down hvr-radial-outa">
+                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
                             <h1>SPA</h1>
                         </div>
-                        <div className="element_down hvr-radial-outa">
+                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
                             <h1>ALENTOURS</h1>
                         </div>
-                        <div className="element_down hvr-radial-outa">
+                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
                             <h1>TARIFS</h1>
                         </div>
                     </div>

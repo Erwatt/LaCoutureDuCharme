@@ -97,12 +97,13 @@ h1{
   }
 
 
-.button_book{
-    background-color: rgb(207,155,63);
-    margin-top: 15%;
-    font-size: 50%;
-    padding:3%;
+.button_book_header{
+    background-color: rgb(75, 30, 199);
+    margin-top: 30%;
+    font-size: 150%;
+    padding:10%;
     font-family: garamond;
+    color: white;
 }
 
 .logo_fb{
