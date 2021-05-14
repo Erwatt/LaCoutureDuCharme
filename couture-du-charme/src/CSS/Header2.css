@@ -1,60 +1,38 @@
-.header{
-    display: flex;
-    flex-direction: column;
+
+.Logo{
+    height:100%;
+    width:20%;
+    
 }
 
-.up{
-    display: flex;
+
+.headerContainer{
+    display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-evenly;
     background-color: rgb(35, 31, 32);
-    max-height: 200px;
-    width: 100%;    
+
+    
 }
 
-p{
-    color:rgb(207,155,63);
-    font-family: garamond;
-    font-size: 80%;
-}
-
-.contact{
-    margin-top: 2%;
-    text-align: end;
-    margin-right: 5%;
-}
-
-.down{
-    display: flex;
-    flex-direction: row;
-    max-height: 100px;
-    background-color: rgb(207,155,63);
-    justify-content: space-around;
-}
-
-h1{
-    color: rgb(33, 32, 37);
+.element{
     font-size: 150%;
-    font-weight:lighter;
+    color: rgb(207,155,63);
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     font-family: garamond;
 }
 
-.element_up{
-    max-width: 33%;
+.button_book{
+    background-color: rgb(207,155,63);
+    margin-top: 15%;
+    font-size: 50%;
+    padding:3%;
+    font-family: garamond;
 }
-
-.element_down{
-    width: 25%;
-    text-align: center;
-}
-
-/* .element_down:hover{
-     background-color:rgb(151, 114, 21);
-    ;
-} */
 .hvr-radial-out {
-    display: inline-block;
-    vertical-align: middle;
+    
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -63,11 +41,14 @@ h1{
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     overflow: hidden;
-    background: rgb(207,155,63);
+    background: rgb(35, 31, 32);
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+    width: 100%;
+    
+   
   }
   
   .hvr-radial-out:before {
@@ -99,15 +80,4 @@ h1{
     transform: scale(2);
   }
 
-.logo_fb{
-    height: 20%;
-    width: auto;
-    margin-top: 2%;
-    margin-left: 5%;
-}
-
-.Logo{
-    height:100%;
-    width:auto;
-}
 

@@ -21,16 +21,16 @@ function Header(){
                     </div>
                     <div className="down">
                         <div className="element_down hvr-radial-out">
-                            <h1>Chambres</h1>
+                            <h1>CHAMBRES D'HOTES</h1>
                         </div>
                         <div className="element_down hvr-radial-out">
-                            <h1>Tarifs et réservation</h1>
+                            <h1>SPA</h1>
                         </div>
                         <div className="element_down hvr-radial-out">
-                            <h1>Centre de détente</h1>
+                            <h1>ALENTOURS</h1>
                         </div>
                         <div className="element_down hvr-radial-out">
-                            <h1>Contact</h1>
+                            <h1>TARIFS</h1>
                         </div>
                     </div>
                 </div>

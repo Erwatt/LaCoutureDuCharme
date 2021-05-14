@@ -12,11 +12,9 @@ export default function Home(){
             </div>
             
             <div class="text">
-                 Lorem ipsum dolor sit amet. Aut similique nisi et rerum possimus non porro iure. Ad blanditiis earum perferendis sunt est necessitatibus alias quo omnis incidunt eos minima tempora est excepturi unde ea dolorem reiciendis. Et quibusdam rerum et molestiae facere ea iste reprehenderit vel dolorem minus!
-
+                Lorem ipsum dolor sit amet. Aut similique nisi et rerum possimus non porro iure. Ad blanditiis earum perferendis sunt est necessitatibus alias quo omnis incidunt eos minima tempora est excepturi unde ea dolorem reiciendis. Et quibusdam rerum et molestiae facere ea iste reprehenderit vel dolorem minus!
                 Vel harum perferendis et consequatur veniam et veniam quae non doloribus animi vel nihil similique. Et dolores iusto ut nulla facere hic aliquam quaerat At illum nostrum in iure rerum. 33 inventore voluptatem sit blanditiis incidunt sit corrupti vitae qui nisi commodi. Sed numquam aperiam aut itaque voluptas non ratione consequatur.
-
-            Ex itaque rerum ut veniam ipsam ad optio magni sed iure assumenda sit fugit itaque! Et optio unde id expedita omnis et saepe necessitatibus et facere nulla sed harum eaque vel nihil harum et quia distinctio. Qui quasi nobis non dolorum voluptatem sed ipsa nostrum sit expedita reiciendis id quia tenetur eum itaque unde. Et debitis delectus est provident autem aut quia adipisci.
+                Ex itaque rerum ut veniam ipsam ad optio magni sed iure assumenda sit fugit itaque! Et optio unde id expedita omnis et saepe necessitatibus et facere nulla sed harum eaque vel nihil harum et quia distinctio. Qui quasi nobis non dolorum voluptatem sed ipsa nostrum sit expedita reiciendis id quia tenetur eum itaque unde. Et debitis delectus est provident autem aut quia adipisci.
             </div>
             <div class="cardAccueilContainer">
         

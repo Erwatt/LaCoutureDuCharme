@@ -1,0 +1,19 @@
+
+.bookPage{
+    background-color: rgb(71, 143, 98);
+    padding:10%;
+}
+
+
+.blank{
+    border:solid black 0.2em;
+    background-color: white;
+    
+    padding:2%;
+    border-style: double;
+}
+.container_bookPage{
+    border :solid black 0.2em;
+    padding:15%;
+    border-style: double;
+}
