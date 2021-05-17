@@ -52,7 +52,7 @@ h1{
      background-color:rgb(151, 114, 21);
     ;
 } */
-.hvr-radial-out {
+.hvr-radial-outa{
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
@@ -69,7 +69,7 @@ h1{
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
   }
-  .hvr-radial-out:before {
+  .hvr-radial-outa:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -88,16 +88,23 @@ h1{
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
-  .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+  .hvr-radial-outa:hover, .hvr-radial-outa:focus, .hvr-radial-outa:active {
     color: white;
   }
-  .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+  .hvr-radial-outa:hover:before, .hvr-radial-outa:focus:before, .hvr-radial-outa:active:before {
     -webkit-transform: scale(2);
     transform: scale(2);
   }
 
 
-
+.button_book_header{
+    background-color: rgb(75, 30, 199);
+    margin-top: 30%;
+    font-size: 150%;
+    padding:10%;
+    font-family: garamond;
+    color: white;
+}
 
 .logo_fb{
     height: 20%;
@@ -107,7 +114,7 @@ h1{
     
 }
 
-.Logo{
+.MainLogo{
     height:100%;
     width:auto;
 }
