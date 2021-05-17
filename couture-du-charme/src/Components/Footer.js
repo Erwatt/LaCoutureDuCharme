@@ -23,18 +23,18 @@ export default function Footer(){
             <img src={testimg} alt="mainlogo" className="mainlogo"></img>
                <div className="flex-items">
                <h3>Adresse</h3>
-                    <div className="ligne">74, Rue de Verdun</div>
-                    <div className="ligne">91230 MONTGERON</div>
+                    <div className="ligne">1400, Rue de Beaumetz</div>
+                    <div className="ligne">59310 Saméon</div>
 
                 </div>
                 <div className="flex-items">
                     <h3>Nous contacter</h3>
-                    <div className="ligne">Téléphone : 01.76.73.71.28</div>
-                    <div className="ligne">Email : DonatienLacroix@teleworm.us</div>
+                    <div className="ligne">Téléphone : 06.31.84.42.39</div>
+                    <div className="ligne">Email : coutureducharme@gmail.com</div>
                 </div>
                 <div className="flex-items">
                     <h3>Réseaux sociaux</h3>
-                    <div className="ligne"><a onClick={handleNothing} className="hvr-back-pulse" ><img className="logo" src={imgFacebook} alt="Facebook"></img><div>Facebook</div></a></div>
+                    <div className="ligne"><a href="https://www.facebook.com/coutureducharme" className="hvr-back-pulse" ><img className="logo" src={imgFacebook} alt="Facebook"></img><div>Facebook</div></a></div>
                     <div className="ligne"><a onClick={handleNothing} className="hvr-back-pulse" ><img className="logo" src={imgTwitter} alt="Twitter"></img><div>Twitter</div></a></div>     
                     <div className="ligne"><a onClick={handleNothing} className="hvr-back-pulse"><img className="logo" src={imgInstagram} alt="Instagram"></img><div>Instagram</div></a></div>                 
                 </div>

@@ -1,7 +1,7 @@
 import logo_fb from '../Image/Logo-fb.png';
 import logo from '../Image/Logo.png';
 import '../CSS/Header.css';
-import { NavLink ,Router} from "react-router-dom"
+// import { NavLink ,Router} from "react-router-dom"
 import React from 'react';
 
 import { useHistory } from 'react-router-dom';
@@ -20,6 +20,9 @@ function Header(){
     const handleHome=()=>{
         history.push("/");
     }
+    const handleRooms=()=>{
+        history.push("/Rooms");
+    }
    
     return (
         <header>
@@ -37,7 +40,7 @@ function Header(){
                         </div>
                     </div>
                     <div className="down">
-                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
+                        <div className="element_down hvr-radial-outa" onClick={handleRooms}>
                             <h1>CHAMBRES D'HOTES</h1>
                         </div>
                         <div className="element_down hvr-radial-outa" onClick={handleNothing}>

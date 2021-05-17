@@ -8,9 +8,23 @@ import logo_wifi from '../Image/logo_wifi.png';
 import fragole from '../Image/fragole.jpg';
 import cocoon from '../Image/cocoon.jpg';
 import scandinave from '../Image/scandinave.jpg';
+import { useHistory } from 'react-router';
 
 
 function Room(){
+
+    const history = useHistory();
+
+    const handleFragole=()=>{
+        history.push("/Fragole");
+    }
+    const handleScandinave=()=>{
+        history.push("/Scandinave");
+    }
+    const handleCocoon=()=>{
+        history.push("/Cocoon");
+    }
+
     return (
         <div className="rooms">
             <div className="element_rooms">
@@ -18,7 +32,7 @@ function Room(){
                     <div className="element_room text_room">
                         <h1 className="Room_title">Fragole</h1>
                         <p className="Room_text">Coucou les amis</p>
-                        <p className="Button">Plus d'infos</p>
+                        <p className="Button" onClick={handleFragole}>Plus d'infos</p>
                     </div>
                     <div className="element_room">
                         <div className="room_image">
@@ -50,14 +64,14 @@ function Room(){
                     <div className="element_room text_room">
                         <h1 className="Room_title">Cocoon</h1>
                         <p className="Room_text">C'est David Lafarge Pokemon</p>
-                        <p className="Button">Plus d'infos</p>
+                        <p className="Button" onClick={handleCocoon}>Plus d'infos</p>
                     </div>
                 </div>
                 <div className="room">
                     <div className="element_room text_room">
                         <h1 className="Room_title">Scandinave</h1>
                         <p className="Room_text">J'éspère que vous allez bien</p>
-                        <p className="Button">Plus d'infos</p>
+                        <p className="Button" onClick={handleScandinave}>Plus d'infos</p>
                     </div>
                     <div className="element_room">
                         <div className="room_image">
