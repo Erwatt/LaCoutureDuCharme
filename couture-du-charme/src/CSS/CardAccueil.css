@@ -42,11 +42,6 @@
 
 }
 
-.headerCardArrow{
-    display:none;
-    background-color: lightskyblue;
-    
-}
 
 .titleAccueilCard{
     padding:2%;
@@ -87,14 +82,9 @@
 
 
     }
-    .buttonHeaderCard{
-        display: none;
-    }
     
-    .headerCardArrow{
-        display:initial;
     
-    }
+    
 
     .accueilcardBg{
         margin:2%;

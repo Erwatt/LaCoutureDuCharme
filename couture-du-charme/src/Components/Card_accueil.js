@@ -32,10 +32,10 @@ export default function CardAccueil(props){
                 <div className="headerCard">
                     <div class="titleAccueilCard">{props.Titre}</div>
                     {
-                        props.Titre=="Chambres"?<div><div className="buttonHeaderCard" onClick={handleRooms}>Voir les chambres</div><div className="headerCardArrow">--=</div></div>:false
+                        props.Titre=="Chambres"?<div><div className="buttonHeaderCard" onClick={handleRooms}>Voir les chambres</div></div>:false
                     }
                     {
-                        props.Titre=="Région"?<div><div className="buttonHeaderCard" onClick={handleAlentours}>Voir les alentours</div><div className="headerCardArrow">--=</div></div>:false
+                        props.Titre=="Région"?<div><div className="buttonHeaderCard" onClick={handleAlentours}>Voir les alentours</div></div>:false
                     }
                     
                 </div>
