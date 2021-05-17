@@ -1,11 +1,11 @@
 
 import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
-import Book from './Components/BookingPage'
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Nothing from './Components/Nothing';
-import Home from './Components/Home';
-import Header2 from './Components/Header2'
+import Book from './BookingPage'
+import Header from './Header';
+import Footer from './Footer';
+import Nothing from './Nothing';
+import Home from './Home';
+import Header2 from './Header2'
 
 function App() {
   return (
