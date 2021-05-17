@@ -8,7 +8,8 @@ function App() {
   return (
     <div>
       <Header/>
-      <RoomSelection room="fragole"/>
+      <RoomSelection room="scandinave"/>
+      {/* <Room/> */}
       <Footer/>
     </div>
   );
