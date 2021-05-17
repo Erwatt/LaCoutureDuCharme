@@ -3,10 +3,20 @@ import imgFacebook from '../Image/facebook-icone-footer.png'
 import imgTwitter from '../Image/twitter-icone-footer.png'
 import imgInstagram from '../Image/instagram-icone-footer.png'
 import testimg from '../Image/testimg.jpg'
-//import logo from '../Image/logo'
+import { useHistory } from 'react-router-dom';
+
 
 
 export default function Footer(){
+
+    const history = useHistory();
+
+    const handleNothing=()=>{
+        history.push("/Nothing");
+    }
+
+   
+
     return(
        <div className="container">
            <div className="flex-container">
@@ -24,14 +34,14 @@ export default function Footer(){
                 </div>
                 <div className="flex-items">
                     <h3>Réseaux sociaux</h3>
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgFacebook} alt="Facebook"></img><div>Facebook</div></a></div>
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgInstagram} alt="Twitter"></img><div>Twitter</div></a></div>     
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/"><img className="logo" src={imgTwitter} alt="Instagram"></img><div>Instagram</div></a></div>                 
+                    <div className="ligne"><a onClick={handleNothing} className="hvr-back-pulse" ><img className="logo" src={imgFacebook} alt="Facebook"></img><div>Facebook</div></a></div>
+                    <div className="ligne"><a onClick={handleNothing} className="hvr-back-pulse" ><img className="logo" src={imgTwitter} alt="Twitter"></img><div>Twitter</div></a></div>     
+                    <div className="ligne"><a onClick={handleNothing} className="hvr-back-pulse"><img className="logo" src={imgInstagram} alt="Instagram"></img><div>Instagram</div></a></div>                 
                 </div>
                 <div className="flex-items">
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/">Recrutement</a></div>
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/">Politique de confidentialité</a></div>
-                    <div className="ligne"><a className="hvr-back-pulse" href="https://www.google.fr/">Mention légale</a></div>
+                    <div className="ligne"><div className="hvr-back-pulse"  onClick={handleNothing}>Recrutement</div></div>
+                    <div className="ligne"><a className="hvr-back-pulse"  onClick={handleNothing}>Politique de confidentialité</a></div>
+                    <div className="ligne"><a className="hvr-back-pulse" onClick={handleNothing}>Mention légale</a></div>
                     
 
 
