@@ -1,0 +1,32 @@
+.selectedRoom{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(207,155,63);
+    justify-content: space-around;
+    max-width:80%;
+    height: auto;
+    margin-left:10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-color: rgb(35, 31, 32);
+    border-width: 1%;
+}
+
+.element_selectedRoom{
+    margin-top: 5%;
+}
+
+body{
+    background-color: rgb(11, 11, 56);
+}
+
+.TextDisplay_Title{
+    font-family: garamond;
+    font-weight:lighter;
+    color:rgb(35, 31, 32);
+}
+
+.TextDisplay_Text{
+    font-family: garamond;
+    color:rgb(35, 31, 32);
+}
