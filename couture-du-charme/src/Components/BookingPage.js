@@ -30,13 +30,13 @@ export default function Book(){
                     </div>
 
 
-                    <h1>Nom</h1>
+                    <h2>Nom</h2>
                     <input></input>
-                    <h1>Prénom</h1>
+                    <h2>Prénom</h2>
                     <input></input>
-                    <h1>Email</h1>
+                    <h2>Email</h2>
                     <input></input>
-                    <h1>Téléphone</h1>
+                    <h2>Téléphone</h2>
                     <input></input>
 
                     

@@ -17,6 +17,15 @@ function Header(){
     const handleNothing=()=>{
         history.push("/Nothing");
     }
+
+    const handleAlentours=()=>{
+        history.push("/Alentours");
+    }
+
+    const handleSpa=()=>{
+        history.push("/Spa");
+    }
+
     const handleHome=()=>{
         history.push("/");
     }
@@ -38,16 +47,16 @@ function Header(){
                     </div>
                     <div className="down">
                         <div className="element_down hvr-radial-outa" onClick={handleNothing}>
-                            <h1>CHAMBRES D'HOTES</h1>
+                            <h2>CHAMBRES D'HOTES</h2>
+                        </div>
+                        <div className="element_down hvr-radial-outa" onClick={handleSpa}>
+                        <h2>SPA</h2>
+                        </div>
+                        <div className="element_down hvr-radial-outa" onClick={handleAlentours}>
+                        <h2>ALENTOURS</h2>
                         </div>
                         <div className="element_down hvr-radial-outa" onClick={handleNothing}>
-                            <h1>SPA</h1>
-                        </div>
-                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
-                            <h1>ALENTOURS</h1>
-                        </div>
-                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
-                            <h1>TARIFS</h1>
+                        <h2>TARIFS</h2>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,27 @@
+.surroundContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: rgb(11, 11, 56);
+
+}
+
+
+.surroundElement{
+    display: flex;
+    flex-direction: row;
+    border: black solid;
+    border-style: double;
+    background-color: white;
+    padding: 2%;
+}
+
+.imgSurround{
+    height: 20em;
+
+}
+
+
+.textSurround{
+    margin: 2%;
+}

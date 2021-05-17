@@ -6,7 +6,7 @@
     height: 400px;
     color:white;
     background-color:white;
-    background-image:url(C:\Users\erwan\Desktop\ISEN\M1\Stage\Sites\CoutureDuCharme\LaCoutureDuCharme\couture-du-charme\src\Image\testimg.jpg);
+    background-image:url(C:\wamp64\www\LaCoutureDuCharme\couture-du-charme\src\Image\testimg.jpg);
 
     display: flex;
     flex-direction: column;
@@ -20,9 +20,31 @@
     border :solid black 1%;
     height: 60%;
     color:black;
-
     display: flex;
     flex-direction: column;
+    
+}
+
+.headerCard{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+   
+    
+}
+
+.buttonHeaderCard{
+    background-color: lightskyblue;
+    justify-content: end;
+    margin:2%;
+    padding:3%
+
+}
+
+.headerCardArrow{
+    display:none;
+    background-color: lightskyblue;
     
 }
 
@@ -32,8 +54,9 @@
     font-weight:400;
     height:15%;
 
-    
 }
+
+
 .descriptionAccueilCard{
     padding:5px;
 }
@@ -63,6 +86,14 @@
         justify-content: space-evenly;
 
 
+    }
+    .buttonHeaderCard{
+        display: none;
+    }
+    
+    .headerCardArrow{
+        display:initial;
+    
     }
 
     .accueilcardBg{
