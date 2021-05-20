@@ -25,7 +25,7 @@ function TextDisplay(props){
             return (
                 <div>
                     <h1 className="TextDisplay_Title">Scandinave</h1>
-                    <p className="TextDisplay_Text">C'est David Lafarge Pokémon</p>
+                    <p className="TextDisplay_Text">J'éspère que vous allez bien</p>
                     <p className="TextDisplay_Text">prix : $£¤€</p>
                 </div>
             );
@@ -33,7 +33,7 @@ function TextDisplay(props){
             return (
                 <div>
                     <h1 className="TextDisplay_Title">Cocoon</h1>
-                    <p className="TextDisplay_Text">J'éspère que vous allez bien</p>
+                    <p className="TextDisplay_Text">C'est David Lafarge Pokémon</p>
                     <p className="TextDisplay_Text">prix : très chère</p>
                 </div>
             );
