@@ -3,7 +3,7 @@
     flex-direction: column;
     max-height: 100%;
     text-align: center;
-    background-color: rgb(35, 31, 32);;
+    background-color: rgb(8, 8, 88);
 }
 
 
@@ -12,7 +12,7 @@
     flex-direction: row;
     max-height: 33%;
     margin: 5%;
-    background-color: rgb(207,155,63);
+    background-color: white;
 }
 
 .element_room{

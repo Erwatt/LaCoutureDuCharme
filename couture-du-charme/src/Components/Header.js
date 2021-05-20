@@ -40,11 +40,11 @@ function Header(){
                         </div>
                     </div>
                     <div className="down">
+                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
+                            <h1 className="Onglet">CENTRE DE DÉTENTE</h1>
+                        </div>
                         <div className="element_down hvr-radial-outa" onClick={handleRooms}>
                             <h1 className="Onglet">CHAMBRES D'HOTES</h1>
-                        </div>
-                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
-                            <h1 className="Onglet">SPA</h1>
                         </div>
                         <div className="element_down hvr-radial-outa" onClick={handleNothing}>
                             <h1 className="Onglet">ALENTOURS</h1>
