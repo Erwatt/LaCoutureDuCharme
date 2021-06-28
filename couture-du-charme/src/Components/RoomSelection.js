@@ -16,9 +16,28 @@ function TextDisplay(props){
         case "fragole":
             return (
                 <div>
+                    <div className="TextDisplay_Head">
                     <h1 className="TextDisplay_Title">Fragole</h1>
-                    <p className="TextDisplay_Text">Coucou les amis</p>
-                    <p className="TextDisplay_Text">prix : 1 000 000 €</p>
+                    <p className="TextDisplay_Text center">La Couture du Charme vous propose notre chambre de au moins 35m² pas plus.
+                                                            Elle met à votre service une salle de bain ainsi que des équipements moderne.</p>
+                    </div>
+                    <div className="equipements">
+                        <h1 className="TextDisplay_Subtitle">EQUIPEMENTS FRAGOLE</h1>
+                        <p className="TextDisplay_Text">- 1 Lit King size</p>
+                        <p className="TextDisplay_Text">- TV</p>
+                        <p className="TextDisplay_Text">- Douche</p>
+                        <p className="TextDisplay_Text">- Wifi</p>
+                    </div>
+                    <div className="equipements_communs">
+                        <h1 className="TextDisplay_Subtitle">EQUIPEMENTS COMMUNS</h1>
+                        <p className="TextDisplay_Text">- Table</p>
+                        <p className="TextDisplay_Text">- Cafetière</p>
+                        <p className="TextDisplay_Text">- Terrasse commune (salon de jardin)</p>
+                        <p className="TextDisplay_Text">- Micro-onde</p>
+                        <p className="TextDisplay_Text">- Lave vaisselles</p>
+                        <p className="TextDisplay_Text">- Réfrigérateur</p>
+                    </div>
+                    
                 </div>
             );
         case "scandinave":
@@ -72,10 +91,10 @@ function RoomSelection(props){
     return (
         <div className="selectedRoom">
             <div className="element_selectedRoom">
-                <TextDisplay chambre={props.room}/>
+                <Diaporama picturesList={listImages}/>
             </div>
             <div className="element_selectedRoom">
-            <Diaporama picturesList={listImages}/>
+                <TextDisplay chambre={props.room}/>
             </div>
         </div>
     );

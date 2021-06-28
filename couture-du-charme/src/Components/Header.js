@@ -23,6 +23,9 @@ function Header(){
     const handleRooms=()=>{
         history.push("/Rooms");
     }
+    const handleWellness=()=>{
+        history.push("/Wellness");
+    }
    
     return (
         <header>
@@ -36,11 +39,11 @@ function Header(){
                             <img src={logo} className="MainLogo" alt="logo" onClick={handleHome}/>
                         </div>
                         <div className="element_up contact">
-                        <button className="button_book_header" onClick={handleBook}>Réservation</button>
+                        <button className="button_book_header" on onClick={handleBook}>Réservation</button>
                         </div>
                     </div>
                     <div className="down">
-                        <div className="element_down hvr-radial-outa" onClick={handleNothing}>
+                        <div className="element_down hvr-radial-outa" onClick={handleWellness}>
                             <h1 className="Onglet">CENTRE DE DÉTENTE</h1>
                         </div>
                         <div className="element_down hvr-radial-outa" onClick={handleRooms}>

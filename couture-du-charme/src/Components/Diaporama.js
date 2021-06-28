@@ -1,5 +1,6 @@
 import {useState} from "react";
 import '../CSS/Diaporama.css';
+import arrow from '../Image/arrow.png';
 
 
 function Diaporama(props){
@@ -8,11 +9,13 @@ function Diaporama(props){
     return (
         <div className="Diaporama">
             <div className="element_Diaporama">
+                <img src={arrow} onClick={() => setPosDiapo(posDiapo - 1)} className="fleche_retour" alt="retour"/>
+            </div>
+            <div className="element_Diaporama">
                 <img src={images[Math.abs(posDiapo % images.length)]} alt="diaporama" className="Diaporama_img"/>
             </div>
             <div className="element_Diaporama">
-                <p className="hvr-bounce-to-left" onClick={() => setPosDiapo(posDiapo - 1)}>Précédent</p>
-                <p className="hvr-bounce-to-right" onClick={() => setPosDiapo(posDiapo + 1)}>Suivant</p>
+                <img src={arrow} onClick={() => setPosDiapo(posDiapo + 1)} className="fleche_suivant" alt="suivant"/>
             </div>
             {console.log(Math.abs(posDiapo % images.length))}
         </div>

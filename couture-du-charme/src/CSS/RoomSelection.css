@@ -1,7 +1,7 @@
 .selectedRoom{
     display: flex;
-    flex-direction: row;
-    background-color: rgb(207,155,63);
+    flex-direction: column;
+    background-color: whitesmoke;
     justify-content: space-around;
     max-width:80%;
     height: auto;
@@ -20,13 +20,38 @@ body{
     background-color: rgb(11, 11, 56);
 }
 
+.center{
+    margin-left: 35%;
+}
+
 .TextDisplay_Title{
-    font-family: garamond;
+    font-family: Bell Melt;
     font-weight:lighter;
-    color:rgb(35, 31, 32);
+    color:rgb(207,155,63);
 }
 
 .TextDisplay_Text{
-    font-family: garamond;
+    font-family: Bell Melt;
     color:rgb(35, 31, 32);
+    max-width: 30%;
+}
+
+.TextDisplay_Head{
+    text-align: center;
+}
+
+.TextDisplay_Subtitle{
+    font-family: Bell Melt;
+    font-weight:lighter;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color:rgb(35, 31, 32);
+}
+
+.equipements{
+    margin-left: 5%;
+}
+
+.equipements_communs{
+    margin-left: 5%;
 }

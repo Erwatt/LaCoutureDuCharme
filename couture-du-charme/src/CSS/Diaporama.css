@@ -1,135 +1,38 @@
 .Diaporama{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-height: 100%;
     width:auto;
     text-align: center;
+    margin-left: 14%;
 }
 
-.elementDiaporama:nth-child(2){
-    display: flex;
-    flex-direction: row;
-    height: 20%;
-    width: 100%;
-}
+
+
 
 .Diaporama_img{
-    height:300px;
+    height:400px;
     width: auto;
 }
 
-/* Bounce To Right */
-.hvr-bounce-to-right {
-    font-size: 150%;
-    height: 30px;
-    width: 100px;
-    margin: 2%;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    color: rgb(207,155,63);
-    background-color: rgb(35, 31, 32);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    border-style: solid;
-    border-color: white;
-    border-width: 1%;
-    font-family: garamond;
-  }
+.fleche_retour{
+  width: 30%;
+  height: auto;
+  transform: rotate(90deg);
+  margin-top: 80%;
+}
 
-  .hvr-bounce-to-right:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgb(207,155,63);
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
+.fleche_suivant{
+  width: 30%;
+  height: auto;
+  transform: rotate(-90deg);
+  margin-top: 80%;
+}
 
-  .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
-    color: rgb(35, 31, 32);
-  }
+.element_Diaporama:nth-child(1){
+  text-align: right;
+}
 
-  .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  }
-
-  .hvr-bounce-to-left {
-    font-size: 150%;
-    height: 30px;
-    width: 100px;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    color: rgb(207,155,63);
-    background-color: rgb(35, 31, 32);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    border-style: solid;
-    border-color: white;
-    border-width: 1%;
-    font-family: garamond;
-  }
-
-  .hvr-bounce-to-left:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgb(207,155,63);
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
-
-  .hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
-    color: rgb(35, 31, 32);
-  }
-
-  .hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  }
+.element_Diaporama:nth-child(3){
+  text-align: left;
+}

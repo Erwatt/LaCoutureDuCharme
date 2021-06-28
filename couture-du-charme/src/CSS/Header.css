@@ -7,10 +7,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(35, 31, 32);
+    /* background-color: rgb(35, 31, 32); */
+    /* background: linear-gradient(purple, indigo, blue, green, yellow, orange, red); */
+    /* background-color: rgb(111,110,72); */
+    background-image: url("../Image/coin.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+    /* background-color: rgba(128, 128, 0, 0.548); */
     max-height: 200px;
     width: 100%;    
 }
+
 
 .text_contact{
     color:rgb(207,155,63);
@@ -29,16 +36,11 @@
     flex-direction: row;
     max-height: 100px;
     width: 100%;
-    background-color: rgb(207,155,63);
+    /* background-color: rgb(207,155,63); */
+    background-color:whitesmoke;
     justify-content: space-around;
 }
 
-.Onglet{
-    color: rgb(33, 32, 37);
-    font-size: 150%;
-    font-weight:lighter;
-    font-family: Bell Mett;
-}
 
 .element_up{
     max-width: 33%;
@@ -64,11 +66,14 @@
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     overflow: hidden;
-    background: rgb(207,155,63);
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+    color: rgb(33, 32, 37);
+    font-size: 70%;
+    font-weight:lighter;
+    font-family: Bell Mett;
   }
   .hvr-radial-outa:before {
     content: "";
@@ -99,7 +104,7 @@
 
 
 .button_book_header{
-    background-color: rgb(75, 30, 199);
+    background-color: rgb(116, 108, 96);
     margin-top: 30%;
     font-size: 150%;
     padding:10%;
@@ -118,5 +123,6 @@
 .MainLogo{
     height:100%;
     width:auto;
+    opacity: 60%;
 }
 
